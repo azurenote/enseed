@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "testapp", "testapp\testapp.visualdproj", "{FC8C09B6-B3EB-473E-9675-A9C57B94BEBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{90DAC511-0363-4AF2-AF35-D3D1402D0371} = {90DAC511-0363-4AF2-AF35-D3D1402D0371}
+	EndProjectSection
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "enseed", "enseed\enseed.visualdproj", "{90DAC511-0363-4AF2-AF35-D3D1402D0371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8C09B6-B3EB-473E-9675-A9C57B94BEBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC8C09B6-B3EB-473E-9675-A9C57B94BEBA}.Debug|Win32.Build.0 = Debug|Win32
+		{FC8C09B6-B3EB-473E-9675-A9C57B94BEBA}.Release|Win32.ActiveCfg = Release|Win32
+		{FC8C09B6-B3EB-473E-9675-A9C57B94BEBA}.Release|Win32.Build.0 = Release|Win32
+		{90DAC511-0363-4AF2-AF35-D3D1402D0371}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90DAC511-0363-4AF2-AF35-D3D1402D0371}.Debug|Win32.Build.0 = Debug|Win32
+		{90DAC511-0363-4AF2-AF35-D3D1402D0371}.Release|Win32.ActiveCfg = Release|Win32
+		{90DAC511-0363-4AF2-AF35-D3D1402D0371}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
